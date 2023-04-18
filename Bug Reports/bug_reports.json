@@ -40,7 +40,7 @@
 	"7":"Check the content of shopping cart"
 },
 "Expected result":"The wanted product is shown on the shopping cart page with correct number of items, size and color",
-"Actual result":"Shopping cart is empty after switching to the sopping cart page"
+"Actual result":"Shopping cart is empty after switching to the shopping cart page"
 }
 
 	
