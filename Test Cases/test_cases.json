@@ -1,0 +1,77 @@
+{
+"TestCase_id":"1",
+"Title":"Placeholder should be removed after entering text in the search field",
+"Steps":
+{
+	"1":"Go to the search field in the header",
+	"2":"Enter some text in the search field"
+},
+"Expected results":
+{
+	"1":"Placeholder, colored light grey, is displayed in the search field",
+	"2":"Placeholder removed after the first letter is entered, the entered text is diplayed instead"
+}
+}
+{
+"TestCase_id":"2",
+"Title":"Display tooltip for the 'Pencil' icon",
+"Precondition":
+{
+	"User is authorized in the application",
+	"Some documents are available for the user"
+},
+"Steps":
+{
+	"1":"Go to the 'documents' tab",
+	"2":"Make sure the pencil icon is present next to every document ",
+	"3":"Hoover the mouse over the pencil icon",
+	"4":"Move the mouse away from the icon",
+	"5":"Hoover the mouse over the pencil icon again"
+},
+"Expected results":
+{
+	"1":"The list of available documents is displayed in the tab",
+	"2":"The pencil icon is present next to every document",
+	"3":"Tooltip with the text 'Edit' is displayed over the icon",
+	"4":"The tooltip disappeared",
+	"5":"Tooltip with the text 'Edit' is displayed over the icon again"
+}
+}
+{
+"TestCase_id":"3",
+"Title":"Adding of goods to the shopping cart"
+"Steps":
+{
+	"1":"Go to the product page",
+	"2":"Check the content of the page",
+	"3":"Choose the color from the 'Color' dropdown",
+	"4":"Choose the size from the 'Size' dropdown",
+	"5":"Choose the number of items using '+' button (e.g. '3')",
+	"6":"Click on the 'Add to cart' button",
+	"7":"Check the shopping cart icon in the top right corner",
+	"8":"Click on the shopping cart icon",
+	"9":"Check the content of the shopping cart"
+},
+"Expected results":
+{
+	"1":"The product page is opened",
+	"2":"The page contains the following options":
+	{	
+	"- The image of the product", 
+	"- Description of the product", 
+	"- Dropdown to choose the color", 
+	"- Dropdown to choose the size",
+	"- 'Number of items' field with '+' and '-' buttons",
+	"- 'Add to Cart' button",
+	"- Shopping cart icon in the top right corner"
+	},
+	"3":"The chosen color is displayed in the 'Color' field",
+	"4":"The chosen size is displayed in the 'Size' field",
+	"5":"The chosen number of items is displayed in the 'number of items' field",
+	"6":"Pop-up message 'The items successfully added to cart' is displayed",
+	"7":"The correct number of added items is displayed on the shopping cart icon",
+	"8":"The shopping cart page is opened",
+	"9":"The product is present in the shopping cart. number of items, color and size are displayed correctly"
+}
+}
+
