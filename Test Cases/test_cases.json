@@ -17,7 +17,7 @@
 "Title":"Display tooltip for the 'Pencil' icon",
 "Precondition":
 {
-	"User is authorized in the application",
+	"User is authorized in the application"
 	"Some documents are available for the user"
 },
 "Steps":
@@ -39,7 +39,7 @@
 }
 {
 "TestCase_id":"3",
-"Title":"Adding of goods to the shopping cart"
+"Title":"Adding of goods to the shopping cart",
 "Steps":
 {
 	"1":"Go to the product page",
@@ -55,14 +55,14 @@
 "Expected results":
 {
 	"1":"The product page is opened",
-	"2":"The page contains the following options":
+	"2":"The page contains the following options:"
 	{	
-	"- The image of the product", 
-	"- Description of the product", 
-	"- Dropdown to choose the color", 
-	"- Dropdown to choose the size",
-	"- 'Number of items' field with '+' and '-' buttons",
-	"- 'Add to Cart' button",
+	"- The image of the product"
+	"- Description of the product" 
+	"- Dropdown to choose the color"
+	"- Dropdown to choose the size"
+	"- 'Number of items' field with '+' and '-' buttons"
+	"- 'Add to Cart' button"
 	"- Shopping cart icon in the top right corner"
 	},
 	"3":"The chosen color is displayed in the 'Color' field",
