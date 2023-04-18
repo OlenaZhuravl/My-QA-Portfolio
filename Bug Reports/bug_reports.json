@@ -1,1 +1,46 @@
-Bug report #1
+{
+"Bug_id":"1",
+"Priority":"Trivial",
+
+"Summary":"Placeholder is not removed after entering text in the search field"
+"Steps to reproduce":
+{
+	"1":"Go to the search field in the header"
+	"2":"Enter some text in the search field"
+	"3":"Check the content og search field"
+},
+"Expected result":"Placeholder is removed after entering some text in the search field",
+"Actual result":"The placeholder is displayed together with entered text in the search field. The entry is not readable"
+},
+{
+"Bug_id":"2",
+"Priority":"Minor",
+"Summary":"Tooltip is not displayed after hovering the edit button with the mouse"
+"Steps to reproduce":
+{
+	"1":"Go to the <url>"
+	"2":"Click on 'My documents' tab in the header"
+	"3":"Hover the mouse over pencil icon next to the document name"
+},
+"Expected result":"Tooltip 'Edit' is displayed after hovering the mouse over the pencil icon",
+"Actual result":"No tooltip is displayed after hovering the mouse over the pencil icon"
+},
+{
+"Bug_id":"3",
+"Priority":"Critical",
+"Summary":"Shopping cart is empty after switching to shopping cart page"
+"Steps to reproduce":
+{
+	"1":"Go to the product page <url>"
+	"2":"Choose the colour of the t-shirt from the colour dropdown"
+	"3":"Choose the size from the size dropdown"
+	"4":"Add wanted guantity by clicking on '+' button next to the 'number of items' field"
+	"5":"Click on the 'Add to cart' button"
+	"6":"Click on the shopping cart icon in the top right corner of the page"
+	"7":"Check the content of shopping cart"
+},
+"Expected result":"The wanted product is shown on the shopping cart page with correct number of items, size and color",
+"Actual result":"Shopping cart is empty after switching to the sopping cart page"
+}
+
+	
